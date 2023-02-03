@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #ED8975;
+}
+
+header {
+  text-align: center;
+  margin: 5vw;
+}
+
+div {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  padding: 4vw;
+  background-color: #F2D096;;
+  border-radius: 2vw;
+  box-shadow: 4px 10px 10px  #00000039;
+
+}
+#ano{
+  text-align: center;
+  font-size: 1.2vw;
+  width:13vw;
+  height: 2vw;
+  margin-left: .5vw;
+  margin-right: 2vw;
+  letter-spacing: .5vw;
+  outline:none;
+  border: none;
+  box-shadow: 4px 5px 5px  #00000014;
+}
+#masc, #femi{
+  width: 2vw;
+  outline:none;
+  border: none;
+  color:  #cc4d34;
+
+}
+#button{
+  padding: .4vw;
+  padding-left: .8vw;
+  padding-right: .8vw;
+  outline:none;
+  border: 2px solid #cc4d34;
+  background-color: #ED8975;
+  border-radius: 1vw;
+  font-weight: 550;
+  box-shadow: 3px 3px  #cc4d34;
+  cursor: pointer;
+}
+div p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  display: inline-flex;
+  margin-top: 0.6vw;
+
+}
+div h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  display: inline-flex;
+  margin-top: 0.6vw;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+h1{
+  color: #F2D096;
+  letter-spacing: -0.10vw;
+  background-color: #da6852;
+  width: 25vw;
+  padding: 1vw;
+  border-radius: 2vw;
+  margin: 0 auto;
+}
+a {
+    color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vw;
+  text-decoration: none;
+}
+
+footer {
+  color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    margin: 15vw;
+  }
+
+  div {
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20vw;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35%;
+  }
+}
