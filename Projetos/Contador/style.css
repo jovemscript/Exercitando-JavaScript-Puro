@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #02263f;
+}
+
+header {
+  text-align: center;
+  margin: 5vw;
+}
+
+div {
+  text-align: center;
+  width: 25vw;
+  margin: 0 auto;
+  padding: 4vw;
+  background-color: #ffffff;
+  border-radius: 2vw;
+  box-shadow: 8px 10px 1px #02436e;
+  align-content: space-around;
+  display:flex;
+}
+
+#button {
+  padding: 0.4vw;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  outline: none;
+  border: 2px solid #cc4d34;
+  background-color: #ededed;
+  border-radius: 1vw;
+  font-weight: 550;
+  box-shadow: 3px 3px #ededed;
+  cursor: pointer;
+}
+div p {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  margin: 0.6vw;
+  flex-direction: column;
+  text-align: left;
+  
+}
+input{
+  width: 5vw;
+  font-size: 1.3vw;
+}
+
+#res{
+  color: rgb(0, 0, 0);
+  font-size: 1vw;
+  margin: 0 auto;
+  margin-top: 2vw;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  width: 18vw;
+  background-color: #ffffff;
+  border-radius: 1vw;
+  box-shadow: 3px 4px 1px #02436e;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  padding: 1vw;
+}
+#contador {
+  width: 6vw;
+  padding: 0.6vw;
+  display: flex;
+  margin: 1vw;
+  text-align: center;
+}
+div h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.5vw;
+  display: inline-flex;
+  margin-top: 0.6vw;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: #dfdfdf;
+  letter-spacing: -0.1vw;
+  background-color: #02436e;
+  width: 25vw;
+  padding: 1vw;
+  border-radius: 2vw;
+  margin: 0 auto;
+}
+a {
+  color: rgb(87, 135, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vw;
+  text-decoration: none;
+}
+
+footer {
+  color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vw;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    margin: 15vw;
+  }
+
+  div {
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20vw;
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vw;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35%;
+  }
+}

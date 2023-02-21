@@ -15,7 +15,8 @@ header {
 
 div {
   text-align: center;
-  width: 30%;
+  width: 40vw;
+
   margin: 0 auto;
   padding: 4vw;
   background-color: #F2D096;;
@@ -58,17 +59,18 @@ div p {
   color: rgb(0, 0, 0);
   font-size: 1.5vw;
   display: inline-flex;
-  margin-top: 0.6vw;
-
 }
+
 div h2 {
   color: rgb(0, 0, 0);
   font-size: 1.5vw;
   display: inline-flex;
   margin-top: 0.6vw;
+
 }
 p {
   color: rgb(0, 0, 0);
+  margin-bottom:1vw;
 }
 
 h1{
@@ -79,6 +81,7 @@ h1{
   padding: 1vw;
   border-radius: 2vw;
   margin: 0 auto;
+  width: 25vw;
 }
 a {
     color: rgb(0, 0, 0);
@@ -97,7 +100,12 @@ footer {
   margin-top: 5vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 716px) {
+  img{
+    padding: 5vw;
+    margin: 5vw;
+    width: 40vw;
+  }
   header {
     text-align: center;
     margin: 15vw;
@@ -106,9 +114,23 @@ footer {
   div {
     align-items: center;
     text-align: center;
-    width: 40%;
+    width: 60vw;
     margin: 0 auto;
-    padding: 20vw;
+    padding: 3vw;
+  }
+  div p {
+    color: rgb(0, 0, 0);
+    font-size: 5.5vw;
+    display: inline;
+    flex-direction: column  ;
+    margin-top: 0.6vw;
+
+  }
+
+  #masc, #femi{
+    min-width: 4vw;
+    min-height: 4vw;
+  
   }
 
   a {
@@ -116,6 +138,35 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 8vw;
+  }
+  h1{
+    color: #F2D096;
+    letter-spacing: -0.10vw;
+    background-color: #da6852;
+    width: 25vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    margin: 0 auto;
+    width: 100%;
+  }
+  div h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3vw;
+    display: inline-flex;
+    margin-top: 0.6vw;
+  
+  }
+  #ano{
+    text-align: center;
+    font-size: 4vw;
+    width:24vw;
+    height: 5vw;
+    margin-left: 15vw;
+    margin-right: 10vw;
+    letter-spacing:0vw;
+    outline:none;
+    border: none;
+    box-shadow: 4px 5px 5px  #00000014;
   }
   footer {
     display: flex;

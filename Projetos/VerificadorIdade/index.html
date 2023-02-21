@@ -6,16 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./main.js"> </script>
-    <title>Document</title>
+    <title>Verificador de Idade</title>
 </head>
 <body>
     <header><h1>Verificador de Idade</h1></header>
     <div>
         <img id="foto" src="" alt="" src="imgs/adulta.png">
-        <p>Ano de Nascimento:</p><input type="number" name="ano" id="ano">
-        <p>Sexo:</p><input type="checkbox" name="Selec" id="masc">Masculino<input type="checkbox" name="Selec" id="femi">Feminino
+        <p>Ano de Nascimento:
+        <input type="number" name="ano" id="ano">
+    </p>
+    
+        <p>
+            Sexo:
+            <input type="checkbox" name="Selec" id="masc">
+            Mas
+            <input type="checkbox" name="Selec" id="femi">
+            Fem
+        </p>
+        <h2 id="res"></h2>
+
        <input type="button" value="verificar" onclick="verificar()" id="button">
-       <h2 id="res"></h2>
     </div>
     <a href="../../index.html"  rel="noopener noreferrer">voltar</a>
 
